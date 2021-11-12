@@ -14,13 +14,13 @@
   }
   
   .ce-active-chat-card {
-    background-color: #cabcdc !important;
-    border: 4px solid #cabcdc !important;
+    background-color: #bcdcd1 !important;
+    border: 4px solid #bcdcd1 !important;
     border-radius: 0px !important;
   }
   
   .ce-chat-subtitle-text {
-    color: #595959 !important;
+    color: #000000 !important;
   }
   
   .ce-chat-form-container {
@@ -29,12 +29,12 @@
   
   .ce-text-input {
     border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
+    border: 1px solid #07e7af !important;
   }
   
   .ce-primary-button {
     border-radius: 6px !important;
-    background-color: #7554a0 !important;
+    background-color: #07e7af !important;
     position: relative;
     bottom: 1px;
   }
@@ -45,17 +45,18 @@
   }
   
   .ce-settings {
-    background-color: rgb(240, 240, 240) !important;
+    background: rgb(246,246,246);
+background: radial-gradient(circle, rgba(246,246,246,1) 81%, rgba(22,163,125,1) 99%);
   }
   
   .ce-autocomplete-input {
     border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
+    border: 1px solid #bcdcd1 !important;
   }
   
   .ce-autocomplete-options {
     border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
+    border: 1px solid #bcdcd1 !important;
     background-color: white !important;
   }
   
@@ -73,7 +74,8 @@
     height: 100%;
     width: 100%;
     overflow: scroll;
-    background-color: rgb(240, 240, 240);
+    background: rgb(246,246,246);
+  background: radial-gradient(circle, rgba(246,246,246,1) 81%, rgba(22,163,125,1) 99%);
   }
   
   .chat-title-container {
@@ -83,13 +85,13 @@
   }
   
   .chat-title {
-    color: #7554a0;
+    color: #1ea374;
     font-weight: 800;
     font-size: 24px;
   }
   
   .chat-subtitle {
-    color: #7554a0;
+    color: #1ea374;
     font-weight: 600;
     font-size: 12px;
     padding-top: 4px;
@@ -139,13 +141,13 @@
   
   .read-receipts {
     position: relative;
-    bottom: 6px;
+    bottom: 4.5px;
   }
   
   .read-receipt {
     width: 13px;
     height: 13px;
-    border-radius: 13px;
+    border-radius: 12px;
     margin: 1.5px;
     background-repeat: no-repeat;
     background-position: center;
@@ -163,14 +165,15 @@
   .message-form {
     overflow: hidden;
     border-radius: 6px;
-    border: 1px solid #3b2a50;
+    border: 1px solid #1ea374;
     background-color: white;
   }
   
   .message-input {
     height: 40px;
     width: calc(100% - 132px);
-    background-color: white;
+    background: rgb(22,163,125);
+    background: linear-gradient(90deg, rgba(22,163,125,1) 0%, rgba(246,246,246,0.01584383753501406) 56%);
     border: 1px solid white;
     padding: 0px 18px;
     outline: none;
@@ -216,8 +219,8 @@
   .wrapper {
     height: 100vh;
       width: 100%;
-    background: rgb(117,84,160);
-    background: linear-gradient(90deg, rgba(117,84,160,1) 7%, rgba(117,84,160,1) 17%, rgba(106,95,168,1) 29%, rgba(99,103,174,1) 44%, rgba(87,116,184,1) 66%, rgba(70,135,198,1) 83%, rgba(44,163,219,1) 96%, rgba(22,188,237,1) 100%, rgba(0,212,255,1) 100%);  
+    background: rgb(84, 160, 156);
+    background: linear-gradient(90deg, rgba(84, 157, 160) 7%, rgb(84, 145, 160) 17%, rgb(95, 168, 168) 29%, rgb(99, 174, 174) 44%, rgb(87, 184, 168) 66%, rgba(70,135,198,1) 83%, rgba(44,163,219,1) 96%, rgba(22,188,237,1) 100%, rgba(0,212,255,1) 100%);  
     display: flex;
     justify-content: center;
     align-items: center;

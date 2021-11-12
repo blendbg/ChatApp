@@ -1,7 +1,9 @@
 # ChatApp
 to start the app open new terminal and write 
-cd chatapp
-npm start
+1 npm install react-chat-engine --save
+2 cd chatapp 
+3 npm start
+
 
 the app fully work with login names and password 
 name - Adam 
